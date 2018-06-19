@@ -1,3 +1,67 @@
+@media (min-width: 300px) {
+  .navbar{
+    display: flex;
+    flex: 1;
+    justify-content: center;
+    overflow: hidden;
+    margin-bottom: none;
+    border-style: none;
+    border-left: none;
+    border-right: none;
+    padding-left: 10px;
+    padding-right: 10px;
+    background: black;
+    font-size: 12px;
+    
+  }
+
+  .navbar > a {
+    color: white;
+    font-weight: bold;
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+  
+  .navbar a:hover {
+    display:flex;
+    background-color: grey;
+    color: yellow;
+    transition: 1s;
+    
+  }
+}
+
+@media (min-width: 720px) {
+  .navbar{
+    display: flex;
+    flex: 1;
+    justify-content: center;
+    overflow: hidden;
+    margin-bottom: none;
+    border-style: none;
+    border-left: none;
+    border-right: none;
+    padding-left: 10px;
+    padding-right: 10px;
+    background: black;
+    font-size: 32px; 
+  }
+
+  .navbar > a {
+    color: white;
+    font-weight: bold;
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+  
+  .navbar a:hover {
+    display:flex;
+    background-color: grey;
+    color: yellow;
+    transition: 1s;
+  }
+}
+
 
 h1, h2, h3, h4 {
     font-family: 'Open Sans', sans-serif;
@@ -17,21 +81,22 @@ body {
   box-shadow: 2px 2px 10px
 }
 
+/*
 .navbar{
   display: flex;
   flex: 1;
   justify-content: center;
   overflow: hidden;
 	margin-bottom: none;
-  border-style: double;
+  border-style: none;
   border-left: none;
   border-right: none;
   padding-left: 10px;
   padding-right: 10px;
   background: black;
-  font-size: 32px;
-  
+  font-size: 32px; 
 }
+
 
 .navbar > a {
 	color: white;
@@ -47,6 +112,7 @@ body {
   transition: 1s;
   font-size: 32px;
 }
+*/
 
 .main {
   margin-top: 250px;
