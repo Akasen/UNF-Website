@@ -28,3 +28,4 @@ xhr.send();
 // At least we avoided writing a crap ton of statements for appendChild
 
 // Still, what I describe is obviously the result of loading in the header from a seperate file
+
